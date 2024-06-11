@@ -11,7 +11,6 @@ public class AccountService {
     public AccountService(Map<String, String> smartMeterToPricePlanAccounts) {
         this.smartMeterToPricePlanAccounts = smartMeterToPricePlanAccounts;
     }
-    int i=0;
     public String getPricePlanIdForSmartMeterId(String smartMeterId) {
         return smartMeterToPricePlanAccounts.get(smartMeterId);
     }
